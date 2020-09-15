@@ -1,0 +1,37 @@
+body {
+  background: #eee;
+  max-width: 620px;
+  margin: auto;
+  padding: 4px;
+}
+h1#title {
+    text-align: center;
+    text-shadow: 2px 2px #f00;
+}
+form.common, .data {
+    background: #fff;
+    padding: 2%;
+    list-style: none;
+}
+form.common > div {
+  padding: 2px 0;
+}
+form.common label, .data strong {
+  width: 140px;
+  display: inline-block;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+form.common input[type="text"], form.common textarea, form.common input[type="email"] {
+  width: 200px;
+}
+form.common select {
+  min-width: 100px;
+}
+form.common .btn-row {
+    margin-left: 140px;
+}
+form.common .error {
+    color: red;
+    display: inline-block;
+}
